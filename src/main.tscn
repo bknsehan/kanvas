@@ -10,3 +10,23 @@
 offset_right = 355.0
 offset_bottom = 304.0
 script = ExtResource("1_k4tli")
+
+[node name="Control" type="Control" parent="Screen_Check"]
+custom_minimum_size = Vector2(360, 100)
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -180.0
+offset_top = -100.0
+offset_right = 180.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="ColorRect" type="ColorRect" parent="Screen_Check/Control"]
+offset_left = -41.0
+offset_right = 422.0
+offset_bottom = 116.0
+color = Color(0.0962047, 0.0962048, 0.0962047, 1)
