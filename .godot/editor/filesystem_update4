@@ -1,1 +1,4 @@
 res://src/test.tscn
+res://src/main.tscn
+res://src/screen_check.gd
+res://src/scripts/color_rect.gd

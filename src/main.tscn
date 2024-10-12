@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://6qjwfqgbrw55"]
+
+[ext_resource type="Script" path="res://src/scripts/color_rect.gd" id="1_k4tli"]
+
+[node name="Main" type="Node"]
+
+[node name="Screen_Check" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="Screen_Check"]
+offset_right = 355.0
+offset_bottom = 304.0
+script = ExtResource("1_k4tli")
