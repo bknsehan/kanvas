@@ -6,7 +6,7 @@
 
 [node name="Screen_Check" type="CanvasLayer" parent="."]
 
-[node name="ColorRect" type="ColorRect" parent="Screen_Check"]
+[node name="ColorRect2" type="ColorRect" parent="Screen_Check"]
 offset_right = 355.0
 offset_bottom = 304.0
 script = ExtResource("1_k4tli")
